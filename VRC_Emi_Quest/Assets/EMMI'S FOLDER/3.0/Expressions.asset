@@ -69,3 +69,23 @@ MonoBehaviour:
     valueType: 2
     saved: 1
     defaultValue: 0
+  - name: Go/Float
+    valueType: 1
+    saved: 0
+    defaultValue: 0.25
+  - name: Go/Stationary
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: Go/Locomotion
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: Go/JumpAndFall
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: Go/Scale
+    valueType: 2
+    saved: 0
+    defaultValue: 0

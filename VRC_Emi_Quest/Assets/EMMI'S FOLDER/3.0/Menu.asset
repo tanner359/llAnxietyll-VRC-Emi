@@ -44,3 +44,13 @@ MonoBehaviour:
     subParameters:
     - name: Hair Length
     labels: []
+  - name: Go Loco
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 1722fb85aa694814f97a70ecab666f33, type: 2}
+    subParameters: []
+    labels: []
