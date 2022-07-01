@@ -89,3 +89,7 @@ MonoBehaviour:
     valueType: 2
     saved: 0
     defaultValue: 0
+  - name: Marker
+    valueType: 2
+    saved: 0
+    defaultValue: 0

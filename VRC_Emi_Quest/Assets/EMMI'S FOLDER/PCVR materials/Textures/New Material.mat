@@ -8,13 +8,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: 917b37092bae034459c28c00a3a19b54, type: 3}
-  m_ShaderKeywords: VIGNETTE_MASKED _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_Shader: {fileID: 4800000, guid: 76df0c5c1fe3e674398ecbf1e09a33c2, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2010
+  stringTagMap:
+    OptimizedShaderFolder: New Material
+    OriginalShader: ".poiyomi/\u2022 Poiyomi Toon \u2022"
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -498,6 +501,7 @@ Material:
     - _BRDFMetallicGlossMapUV: 0
     - _BRDFMetallicMapToolTip: 0
     - _BRDFMetallicMapUV: 0
+    - _BRDFMetallicSpecIgnoresBaseColor: 0
     - _BRDFReflectance: 0.5
     - _BRDFReflectionsEnabled: 1
     - _BRDFSpecularEnabled: 1
@@ -970,7 +974,7 @@ Material:
     - _ScrollingEmission: 0
     - _ScrollingEmission1: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 0
+    - _ShaderOptimizerEnabled: 1
     - _ShadowMix: 0
     - _ShadowMixThreshold: 0.5
     - _ShadowMixWidthMod: 0.5
@@ -1067,7 +1071,7 @@ Material:
     - footer_patreon: 0
     - footer_twitter: 0
     - footer_youtube: 0
-    - m_ParallaxMap: 0
+    - m_ParallaxMap: 1
     - m_Patreon: 0
     - m_PostProcessing: 0
     - m_Special_Effects: 0
