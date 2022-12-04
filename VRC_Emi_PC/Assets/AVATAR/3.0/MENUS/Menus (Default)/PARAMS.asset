@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: PARAMS
+  m_EditorClassIdentifier: 
+  parameters:
+  - name: VRCEmote
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: VRCFaceBlendH
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: VRCFaceBlendV
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: Hoodie
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Panties
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Harness
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Ears
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Kittypaws
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Suit
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Sweater
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Tail
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Hair Length
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: Sockies
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Piercing
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Go/Float
+    valueType: 1
+    saved: 0
+    defaultValue: 0.25
+  - name: Go/Stationary
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: Go/Locomotion
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: Go/JumpAndFall
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: Go/Scale
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: Marker
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: CropTop
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Tattoo Creampie
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Tattoo Succubus
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Glasses
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Hair 1
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Hair 2
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Hair Color R
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: Hair Color G
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: Hair Color B
+    valueType: 1
+    saved: 1
+    defaultValue: 0

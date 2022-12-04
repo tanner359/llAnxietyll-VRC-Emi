@@ -65,18 +65,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-8977300885654706572
@@ -133,12 +145,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/VRCEmote
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 252
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &-8947082071931006240
@@ -323,12 +341,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/VRCEmote
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 253
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &-8480656722784321779
@@ -424,18 +448,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1109 &-8307015783498572717
@@ -597,18 +633,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1109 &-7639064570101107238
@@ -716,48 +764,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Float
+  - type: 0
+    name: Go/Float
+    source: 
     value: 0.25
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Stationary
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Stationary
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Seated
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Seated
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Left
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &-7446000746624159159
@@ -817,18 +907,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-7191251287606459013
@@ -866,18 +968,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-7132007408407052360
@@ -1172,12 +1286,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/VRCEmote
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 249
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &-6069241975204333913
@@ -1266,12 +1386,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/VRCEmote
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 249
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &-5876656616695633176
@@ -1640,12 +1766,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/VRCEmote
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 252
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &-4830474272289023401
@@ -1794,12 +1926,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/VRCEmote
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 253
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &-4220208483629089742
@@ -2163,18 +2301,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &-2839694295825653446
@@ -2213,18 +2363,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &-2643180413486590534
@@ -2289,18 +2451,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-2583071501936043460
@@ -2393,12 +2567,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/VRCEmote
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 250
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-1991247364365801485
@@ -2509,18 +2689,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: VRCEmote
+  - type: 0
+    name: VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Float
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Float
+    source: 
     value: 0.25
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &-1220302222504273152
@@ -2564,18 +2756,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1109 &-1186567041515550953
@@ -2621,12 +2825,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Reset
+  - type: 0
+    name: Go/Reset
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-832123575948823850
@@ -2705,18 +2915,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-545234182821432670
@@ -2833,12 +3055,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/VRCEmote
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 250
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &-148457821454124412
@@ -4067,18 +4295,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &1367476841960775585
@@ -4094,18 +4334,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &1476663399280322229
@@ -4265,18 +4517,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &2321834090837030801
@@ -4426,18 +4690,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &2486002743650034525
@@ -4605,54 +4881,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Float
+  - type: 0
+    name: Go/Float
+    source: 
     value: 0.25
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Reset
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Reset
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Stationary
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Stationary
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Seated
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Seated
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Left
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &3440204562828923978
@@ -4977,12 +5301,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/VRCEmote
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 251
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &4772066866708102129
@@ -5436,42 +5766,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Float
+  - type: 0
+    name: Go/Float
+    source: 
     value: 0.25
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Seated
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Seated
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Left
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &6308101839869722273
@@ -5539,18 +5905,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &6346410390404176166
@@ -5610,18 +5988,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1109 &6419928307536531014
@@ -5846,18 +6236,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &7046630734877991488
@@ -6003,18 +6405,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &7611538756809169139
@@ -6030,54 +6444,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Float
+  - type: 0
+    name: Go/Float
+    source: 
     value: 0.25
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Reset
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Reset
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Stationary
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Stationary
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Seated
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Seated
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Left
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &7693061182930234061
@@ -6277,18 +6739,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &8380915648188135866
@@ -6334,18 +6808,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Left
+  - type: 0
+    name: Go/Left
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Right
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Right
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &8679707947524531516
@@ -6400,12 +6886,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/VRCEmote
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 251
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &8795606494722195447

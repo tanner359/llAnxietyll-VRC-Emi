@@ -238,6 +238,31 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1101 &-8846983196680432209
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: AFK
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 8938790798800375026}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1101 &-8837086796653259218
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1082,12 +1107,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Stationary
+  - type: 0
+    name: Go/Stationary
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &-7087886046745852918
@@ -1485,6 +1516,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 7936824446467229258}
     m_Position: {x: 300, y: -60, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8938790798800375026}
+    m_Position: {x: 82.489624, y: -102.81662, z: 0}
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: 3821522853459224618}
@@ -1743,24 +1777,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: VRCEmote
+  - type: 0
+    name: VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Stationary
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Stationary
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Reset
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Reset
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-5833730567260677760
@@ -2100,18 +2152,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Reset
+  - type: 0
+    name: Go/Reset
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-5099650698149620504
@@ -2457,7 +2521,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 806c242c97b686d4bac4ad50defd1fdb, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5a02733a0af2f124f8e45d36c060ab82, type: 2}
   m_Tag: 
   m_SpeedParameter: Go/Float
   m_MirrorParameter: 
@@ -2527,7 +2591,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 806c242c97b686d4bac4ad50defd1fdb, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5a02733a0af2f124f8e45d36c060ab82, type: 2}
   m_Tag: 
   m_SpeedParameter: Go/Float
   m_MirrorParameter: 
@@ -2626,18 +2690,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Stationary
+  - type: 0
+    name: Go/Stationary
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: VRCEmote
+    source: 
     value: 205
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &-3701376984540851382
@@ -2894,7 +2970,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 806c242c97b686d4bac4ad50defd1fdb, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5a02733a0af2f124f8e45d36c060ab82, type: 2}
   m_Tag: 
   m_SpeedParameter: Go/Float
   m_MirrorParameter: 
@@ -3155,12 +3231,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Stationary
+  - type: 0
+    name: Go/Stationary
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-2310036928640816603
@@ -3943,12 +4025,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Reset
+  - type: 0
+    name: Go/Reset
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-884228592464438999
@@ -4145,12 +4233,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Stationary
+  - type: 0
+    name: Go/Stationary
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &-466309844891786747
@@ -8431,12 +8525,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Float
+  - type: 0
+    name: Go/Float
+    source: 
     value: 0.25
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &627401218197073490
@@ -9912,7 +10012,7 @@ AnimatorStateTransition:
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3960269833231165735}
   m_Solo: 0
-  m_Mute: 0
+  m_Mute: 1
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
@@ -10052,6 +10152,7 @@ AnimatorState:
   - {fileID: 4199808908068177102}
   - {fileID: 1105631805248701206}
   - {fileID: 4538987006062485871}
+  - {fileID: -8846983196680432209}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -10662,7 +10763,7 @@ AnimatorStateTransition:
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3108599090323569671}
   m_Solo: 0
-  m_Mute: 0
+  m_Mute: 1
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
@@ -11337,7 +11438,7 @@ AnimatorStateTransition:
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4216925464925060071}
   m_Solo: 0
-  m_Mute: 0
+  m_Mute: 1
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
@@ -11577,12 +11678,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Stationary
+  - type: 0
+    name: Go/Stationary
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &4479666381784461871
@@ -11652,7 +11759,7 @@ AnimatorStateTransition:
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2819231885959758666}
   m_Solo: 0
-  m_Mute: 0
+  m_Mute: 1
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
@@ -12907,12 +13014,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Float
+  - type: 0
+    name: Go/Float
+    source: 
     value: 0.25
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &7490282985349713018
@@ -12993,24 +13106,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: VRCEmote
+  - type: 0
+    name: VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Reset
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Reset
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &7671085980184495019
@@ -13026,24 +13157,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: Go/Float
+  - type: 0
+    name: Go/Float
+    source: 
     value: 0.25
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/Reset
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/Reset
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: Go/VRCEmote
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: Go/VRCEmote
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &7739369304200559743
@@ -13591,6 +13740,32 @@ MonoBehaviour:
   trackingEyes: 0
   trackingMouth: 0
   debugString: 
+--- !u!1102 &8938790798800375026
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cross Legs
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 5a02733a0af2f124f8e45d36c060ab82, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &9058980326152381700
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Devil_Menu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Devil Features
+    icon: {fileID: 2800000, guid: 2167bf4995e3f4b46bc56626f4e83f86, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c55ee6e06371bd64ca5b2ba7451aaae6, type: 2}
+    subParameters: []
+    labels: []
+  - name: Clothing
+    icon: {fileID: 2800000, guid: d1ec4bfafb5171d41bb7f68e92310f0a, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 9fc19340f2bfd7543a423f507b7f9819, type: 2}
+    subParameters: []
+    labels: []
+  - name: Accessories
+    icon: {fileID: 2800000, guid: d2135d657526ebb4fb528eac9d306bc4, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 18a68473228547a40a54371b3fcfd469, type: 2}
+    subParameters: []
+    labels: []
+  - name: Go Loco
+    icon: {fileID: 2800000, guid: 0300541cd7c182b4aa018dd0207d06a4, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 1722fb85aa694814f97a70ecab666f33, type: 2}
+    subParameters: []
+    labels: []
+  - name: Marker
+    icon: {fileID: 2800000, guid: d7f5ccd8035dd4d4d9f80706d359fdfa, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: d95cc2af482d85a45a2b04ebf430f271, type: 2}
+    subParameters: []
+    labels: []
+  - name: Hair
+    icon: {fileID: 2800000, guid: 71c2c7c29ccd22946909151ca2cda4ee, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: fa0735bb839dc664b8a4aec753aeaf7f, type: 2}
+    subParameters: []
+    labels: []
+  - name: Lewd
+    icon: {fileID: 2800000, guid: e7a8e02a81ad109458578b3c67d316b1, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 403bb18ace1859d4e9789b31ebac324a, type: 2}
+    subParameters: []
+    labels: []
+  - name: SFX
+    icon: {fileID: 2800000, guid: 8e25289d0b0ba054e8624a7f6a4fe494, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 4ef3b60c718a9244380e9f15d2774e4e, type: 2}
+    subParameters: []
+    labels: []
